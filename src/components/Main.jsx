@@ -47,10 +47,10 @@ function Main(){
     return (
 
         <main>
+
+            <SearchBar input={state.input} handleChange={(event)=>handleChange(event)} />
+
             <div id="container"> 
-
-                <SearchBar input={state.input} handleChange={(event)=>handleChange(event)} />
-
                 <Table loading={state.loading} heading={state.heading} data={updatedData}/>
 
             </div>

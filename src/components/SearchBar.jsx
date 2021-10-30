@@ -1,7 +1,9 @@
 function SearchBar({input, handleChange}){
     return(
-        <div>
-            <input type="search" onChange={handleChange} value={input} />
+        <div id="search-bar">
+            <div id="input-space">
+                <input type="search" onChange={handleChange} value={input} placeholder="Search..." />
+            </div>
         </div>
     )
 }
