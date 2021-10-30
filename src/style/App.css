@@ -17,6 +17,19 @@ h1{
     font-size: 3rem;
 }
 
-.pre-heading{
+#pre-heading{
     font-size: 1rem;
+}
+
+#container{
+    margin: 3rem;
+    text-align: center;
+    display: grid;
+    row-gap: 1rem;
+;
+}
+
+#table{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
