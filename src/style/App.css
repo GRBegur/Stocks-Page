@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #2F4858;
+    color: #bd6239;
+    text-align: center;
+    min-height: 5rem;
+}
+
+h1{
+    padding-top: 0.5rem;
+    font-size: 3rem;
+}
+
+.pre-heading{
+    font-size: 1rem;
+}
