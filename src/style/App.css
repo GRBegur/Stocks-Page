@@ -105,3 +105,11 @@ input{
     min-height: 2rem;
     width: 28vw;
 }
+
+#arrow{
+    padding-bottom: 0.5rem;
+}
+
+#not-found{
+    
+}

@@ -1,7 +1,11 @@
 import QuoteHeader from "./QuoteHeader"
 import QuoteData from "./QuoteData"
+import { useContext } from "react"
+import Context from "../context/Context"
 
-function QuoteInfo({data}){
+function QuoteInfo(){
+
+    const {data} = useContext(Context)
 
     return(
         <div className="container">
