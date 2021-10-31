@@ -50,7 +50,7 @@ function Main(){
 
             <SearchBar input={state.input} handleChange={(event)=>handleChange(event)} />
 
-            <div id="container"> 
+            <div className="container"> 
                 <Table loading={state.loading} heading={state.heading} data={updatedData}/>
 
             </div>
