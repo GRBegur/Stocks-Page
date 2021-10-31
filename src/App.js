@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router';
+import { Route } from 'react-router';
 import Home from './components/Home';
 import Quote from './components/Quote'
 import { Provider } from './context/Context';

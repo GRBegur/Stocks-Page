@@ -1,3 +1,6 @@
+
+/*................ General for both pages............... */
+
 *{
     margin: 0;
     padding: 0;
@@ -36,6 +39,7 @@ h1{
     background-color: #eaf2fc;
 }
 
+
 .table{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -50,15 +54,17 @@ h1{
     color: #184c62;
 }
 
-.table>a{
-    text-decoration: none;
-}
-
 #table-header>p{
     text-decoration-color: #bd6239;
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-underline-offset: 5px;
+}
+
+/*................ For stocks Page....................... */
+
+.table>a{
+    text-decoration: none;
 }
 
 .symbol{
@@ -106,10 +112,29 @@ input{
     width: 28vw;
 }
 
+/* ...........................For Quotes Page................. */
+
 #arrow{
     padding-bottom: 0.5rem;
 }
 
-#not-found{
-    
+#back-button{
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+    width: 32vw;
+    background-color: #103046;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: 1s ease;
 }
+
+#back-button:hover{
+    box-shadow: 0 0 10px black;
+}
+
+

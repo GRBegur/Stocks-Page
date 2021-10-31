@@ -6,11 +6,11 @@ import QuoteInfo from './QouteInfo'
 
 
 
-function Quote({match}){
+function Quote(props){
 
-    const symbol = match.params.symbol
+    const symbol = props.match.params.symbol
     const {clearTime, needToUpdate, sortData, sortHandle:[sortType] } = useContext(Context)
-
+    
     useEffect(()=>{
         return ()=>clearTime()
     },[])
@@ -25,7 +25,7 @@ function Quote({match}){
     return(
         <React.Fragment>
             <Header subHeading="Quotets for" heading={symbol}/>
-            <QuoteInfo />
+            <QuoteInfo history={props.history}/>
         </React.Fragment>
     )
 }
