@@ -1,10 +1,8 @@
 
-function Header(){
+function Header({subHeading, heading}){
     return(
-        <header>
-        <nav>
-          <h1><span id="pre-heading">Information on</span> Stocks</h1>    
-        </nav>
+      <header>
+        <h1><span id="pre-heading">{subHeading}</span>{heading}</h1>    
       </header>
     )
 }
