@@ -22,7 +22,7 @@ function QuoteHeader(){
         <div className="table" id="table-header">
             <p>Price</p>
             <p>Time {data && <img id="arrow" src={sortType==="Asc"?up:down} alt="up arrow" onClick={handleClick} />}</p>
-            <p>Valid_till</p>
+            <p>Valid Till</p>
         </div>
     )
 }

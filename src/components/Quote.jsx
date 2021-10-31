@@ -24,7 +24,7 @@ function Quote(props){
 
     return(
         <React.Fragment>
-            <Header subHeading="Quotets for" heading={symbol}/>
+            <Header page="quote" heading={`Quotes For ${symbol}`}/>
             <QuoteInfo history={props.history}/>
         </React.Fragment>
     )

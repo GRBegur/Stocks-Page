@@ -6,7 +6,7 @@ function Home(){
     return(
         <React.Fragment>
 
-            <Header subHeading="Information on" heading="Stocks" />
+            <Header page="stocks" heading="Stocks" />
             <Main />
 
         </React.Fragment>

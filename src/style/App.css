@@ -9,23 +9,14 @@
 }
 
 body{
-    background-color: #2f4858;
+    background-color:#dfe7ec;
 }
 
 
 header{
-    background-color: #2F4858;
-    color: #bd6239;
+    color: rgb(80 69 63);
     text-align: center;
     min-height: 5rem;
-}
-
-h1{
-    font-size: 4.5rem;
-}
-
-#pre-heading{
-    font-size: 1.5rem;
 }
 
 .container{
@@ -54,14 +45,15 @@ h1{
     color: #184c62;
 }
 
-#table-header>p{
-    text-decoration-color: #bd6239;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    text-underline-offset: 5px;
+.table>p{
+    word-break: break-word;
 }
 
 /*................ For stocks Page....................... */
+
+#stock-title{
+    font-size: 4.5rem;
+}
 
 .table>a{
     text-decoration: none;
@@ -88,7 +80,7 @@ h1{
 
 
 #search-bar{
-    margin: 2.5rem;
+    margin: 2.3rem;
     margin-right: 3rem;
     margin-bottom: 0;
     display: flex;
@@ -96,7 +88,7 @@ h1{
 }
 
 #input-space{
-    background-color: #04283e;
+    background-color: #939ca2c9;
     min-height: 4rem;
     border-radius: 0.5rem;
     border-bottom-left-radius: 0;
@@ -110,16 +102,22 @@ input{
     font-size: 1.1rem;
     min-height: 2rem;
     width: 28vw;
+    padding-left: 0.3rem;
 }
 
 /* ...........................For Quotes Page................. */
+
+#quote-title{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
 
 #arrow{
     padding-bottom: 0.5rem;
 }
 
 #back-button{
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     margin-left: 3rem;
     width: 32vw;
     background-color: #103046;
@@ -160,13 +158,18 @@ input{
         margin-left: 0;
     }
 
-    h1{
+    #quote-title, #stock-title{
         font-size: 16vw;
     }
 
     #back-button{
         margin-left: 1rem;
         font-size: 3vw;
+    }
+
+    #arrow{
+        padding-bottom: 0.5vw;
+        width: 3vw;
     }
 
 }

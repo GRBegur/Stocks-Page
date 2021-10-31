@@ -2,7 +2,6 @@ import QuoteHeader from "./QuoteHeader"
 import QuoteData from "./QuoteData"
 import React, { useContext } from "react"
 import Context from "../context/Context"
-import { Link } from "react-router-dom"
 
 function QuoteInfo(props){
 
@@ -10,7 +9,6 @@ function QuoteInfo(props){
 
     const handleClick=()=>{
         props.history.replace("/")
-        console.log(props)
     }
 
     return(

@@ -27,6 +27,8 @@ export function Provider(props){
 
     const clearTime=()=>{
         clearTimeout(interval)
+        setData(null)
+        setType("Asc")
     }
 
     const sortData=(recievedData,typeOfSort,typeofUpdate)=>{

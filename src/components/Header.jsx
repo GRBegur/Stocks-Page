@@ -1,8 +1,8 @@
 
-function Header({subHeading, heading}){
+function Header({page, heading}){
     return(
       <header>
-        <h1><span id="pre-heading">{subHeading}</span>{heading}</h1>    
+        <h1 id={page==="stocks"?"stock-title":"quote-title"}>{heading}</h1>    
       </header>
     )
 }
