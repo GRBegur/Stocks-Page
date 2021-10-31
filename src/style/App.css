@@ -30,6 +30,12 @@ header{
     background-color: #eaf2fc;
 }
 
+#loading{
+    margin: auto;
+    transition: 1s ease;
+    margin-top: 5rem;
+    margin-bottom: inherit
+}
 
 .table{
     display: grid;

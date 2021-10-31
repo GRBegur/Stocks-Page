@@ -1,7 +1,8 @@
-import QuoteHeader from "./QuoteHeader"
-import QuoteData from "./QuoteData"
-import React, { useContext } from "react"
-import Context from "../context/Context"
+import ReactLoading from 'react-loading';
+import QuoteHeader from "./QuoteHeader";
+import QuoteData from "./QuoteData";
+import React, { useContext } from "react";
+import Context from "../context/Context";
 
 function QuoteInfo(props){
 
@@ -20,7 +21,7 @@ function QuoteInfo(props){
             data.map((element)=>{
                 return <QuoteData key={element.price} object={element} />
             })
-            : <h1>Loading...</h1> }
+            : <ReactLoading id="loading" type={"spin"} color="#b3c8ff" /> }
         </div>
         </React.Fragment>
     )

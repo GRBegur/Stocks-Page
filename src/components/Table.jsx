@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactLoading from 'react-loading';
 import TableBody from './TableBody';
 import TableHeader from './TableHeader';
 
@@ -6,7 +7,7 @@ import TableHeader from './TableHeader';
 function Table({loading, heading, data}){
     return(
         <React.Fragment>
-        {loading ? <h1>Loading...</h1> :
+        {loading ? <ReactLoading id="loading" type={"spin"} color="#b3c8ff" /> :
 
             <React.Fragment>
 
