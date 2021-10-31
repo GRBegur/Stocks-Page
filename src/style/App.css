@@ -138,3 +138,37 @@ input{
 }
 
 
+/*........................ media query........................ */
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    #table-header{
+        font-size: 6vw;
+    }
+
+    .table{
+        font-size: 4vw;
+    }
+
+    .symbol{
+        font-size: 4vw;
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 16vw;
+    }
+
+    #back-button{
+        margin-left: 1rem;
+        font-size: 3vw;
+    }
+
+}
+
+
