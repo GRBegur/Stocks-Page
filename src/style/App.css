@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color:#dfe7ec;
+    background-color:#dbe5ea;
 }
 
 
@@ -43,6 +43,13 @@ header{
     margin: 0.5rem;
     font-size: 1.2rem;
     color: #17244c;
+}
+
+.table:nth-child(2n+1) {
+    background-color: #93939326;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.3rem;
 }
 
 #table-header{
