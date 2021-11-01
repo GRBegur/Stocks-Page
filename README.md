@@ -7,7 +7,8 @@
 * Stocks, displays data from the given API
 * Allows you to search for data based on a Symbol or a Name
 * Quote, fetches information depending upon which symbol was selected from the given API
-* Time column in the Quotes section allows you to sort data in ascending and descending order 
+* Time column in the Quotes section allows you to sort data in ascending and descending order
+* Quote data is refreshed frequently through new API calls, dpending on the recieved expiry time. 
 * Includes responsive UI
 
 ## Local Environment Setup
