@@ -41,6 +41,11 @@
 * 'fetchData' handles both CSV/JSON and returns JSON data
 * CSV data is converted and returned as JSON by 'fetchData'. It utilises the 'csvToJson' function
 * Fuzzy Search is implemented through fuse.js
+* Under Quote page API calls are frequently done depending upon the expiry time recieved
+    * For each API call a new set of data with new set of expiry time is obtained
+    * Among all the set of expiry time, the highest one is chosen and a timer is set for the difference of ExpiryTime and CurrentTime
+    * After the timer has expired a new API call is made and data is updated.
+    * A buffer of 5sec is added to the difference of Expiry and Current time so that if same data is recieved from API, previous data is displayed and a new request is made after 5sec.
 * Vanilla CSS is used for styling.
 
 ## Further Possibelities

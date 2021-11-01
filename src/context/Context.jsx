@@ -18,11 +18,10 @@ export function Provider(props){
 
         const expiryTime = new Date(maxTime["valid_till"]).getTime()+1.98e7
         const localTime = new Date().getTime()
-       
         interval.current = setTimeout(()=>{
             setData(null)
             setUpdate(localTime)
-        },Math.ceil((expiryTime-localTime)+5000))
+        },Math.ceil((expiryTime-localTime<=0?0:expiryTime-localTime)+5000))
     }
 
     const clearTime=()=>{
