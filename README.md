@@ -1,6 +1,6 @@
 # Stocks Information Application
 
-> Retrives data from API, displays it in a table structure and provides added functionality such as search and sort.  
+> Retrieves data from API, displays it in a table structure and provides added functionality such as search and sort.  
 
 ## Features
 * Contains 2 pages Stocks and Quote
@@ -16,25 +16,6 @@
 * Run 'npm install' to install required dependencies
 * If required for deployment, run 'npm build'
 * Run 'npm start' and visit 'localhost:3000'
-
-## Folder and Component Structure
-* All the components defined are found under '/src/components'.
-* Stocks incorporates the following components:
-    * Home
-    * Main
-    * SearchBar
-    * Table
-    * TableBody
-    * TableHeader
-* Quote incorporates the following components:
-    * Quote
-    * QuoteInfo
-    * QuoteHeader
-    * QuoteData
-* Header component is shared between both pages.
-* '/api_data/' contains funtionalities used for fetching and converting data recieved from API
-* All the CSS is included under '/style/App.css'
-* Symbols used to represent sort are under '/images/'
 
 ## Funtionality Details
 * API calls are handled through a custom function 'fetchData' which uses Axios
