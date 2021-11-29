@@ -12,7 +12,7 @@
 * Includes responsive UI
 
 ## Local Environment Setup
-* Navigate into the current project directory , i.e /sensibull-assignment-guna-r-begur
+* Navigate into the current project directory , i.e /Stocks-Page
 * Run 'npm install' to install required dependencies
 * If required for deployment, run 'npm build'
 * Run 'npm start' and visit 'localhost:3000'
